@@ -71,6 +71,11 @@ Choose to update or delete a note after long-pressing it
 
 This project is a Flutter-based application. To run it:
 
+## 📥 Clone the Project
+To download the project to your local machine, run the following command in your terminal:
+
+    git clone https://github.com/kuteybeAllito1/Notes-app.git
+
 ```bash
 flutter pub get
 flutter run
