@@ -1,85 +1,76 @@
-## comprehensive note management system
+# 📱 Notes App – Flutter + Firebase
 
+A comprehensive and clean note management application built with **Flutter** and **Firebase**, offering real-time storage, secure authentication, and a user-friendly interface.
 
+---
 
-# 📱 Notes App (with Firebase)
-This is a complete notes management application built with Flutter and Firebase. It allows users to:
+## ✨ Features
 
-    Create, edit, and delete note categories.
+### 🗂️ Notes Management
+- Create, edit, and delete **note categories**
+- Add unlimited notes within each category
+- Edit or delete any individual note
 
-    Add unlimited notes under each category.
+### 🔒 Authentication (Firebase Auth)
+- Register with **email and password**
+- **Email verification** via confirmation link
+- **Reset password** functionality
+- Sign in using **Google account**
 
-Edit or delete individual notes.
+### ☁️ Realtime Cloud Storage
+- All data stored securely in **Firebase Firestore**
+- Instant updates and cloud synchronization
 
-# 🔒 Authentication Features (via Firebase Auth):
-Register with email and password.
+---
 
-    Email verification through a confirmation link.
+## 📸 Screenshots
 
-    Password reset functionality.
+### 🔐 Login Screen  
+Clean and user-friendly login with multiple authentication options  
+![Login](https://github.com/user-attachments/assets/66ef834a-219e-4a55-9067-5415b3c841fe)
 
-    Sign in with Google account (one-click login).
+---
 
+### 📝 Sign Up Screen  
+Create a new account using username, email, and password  
+![SignUp](https://github.com/user-attachments/assets/1f62921e-6549-4c07-8bd1-25976f3c403c)
 
-# ☁️ Data Storage:
-    All data (categories and notes) is stored securely using Firebase Firestore.
+---
 
+### 🗂️ Home Page (Categories)  
+Browse all your note categories in a folder-style layout  
+![Home](https://github.com/user-attachments/assets/eed2391c-fbb5-4604-bad3-97247a6adefb)
 
+---
 
+### ➕ Add Category Screen  
+Add new categories easily with a single input field  
+![Add Category](https://github.com/user-attachments/assets/9f5ef7b2-4780-4a31-90e6-49e07f1259f1)
 
+---
 
-## 🔐 Login Screen
-Clean and user-friendly login screen with support for:
+### 📝 View Notes Screen  
+View all notes under a selected category  
+![View Notes](https://github.com/user-attachments/assets/7f624fdc-1ca2-4ca2-bcd4-c5829593fc97)
 
-Email and password authentication
+---
 
-Password reset
+### ✍️ Add Note Screen  
+Write and save notes instantly to the cloud  
+![Add Note](https://github.com/user-attachments/assets/a6c9dbc4-69d3-4085-b832-c9f9f7a594c3)
 
-Social login options (Google, Facebook, Apple)
-![Image](https://github.com/user-attachments/assets/66ef834a-219e-4a55-9067-5415b3c841fe)
+---
 
-## 📝 Sign Up Screen
-A simple and intuitive registration screen where users can:
+### ⚠️ Note Action Dialog  
+Choose to update or delete a note after long-pressing it  
+![Delete/Update](https://github.com/user-attachments/assets/e0bc7654-b0f4-4c16-81d0-f08b4553c416)
 
-Create a new account using their username, email, and password
+---
 
-Easily switch to the login screen if they already have an account
-![Image](https://github.com/user-attachments/assets/1f62921e-6549-4c07-8bd1-25976f3c403c)
+## 🚀 Getting Started
 
-## 🗂️ Home Page (Categories)
-The main screen displays all note categories in a clean folder-style layout.
-Users can:
+This project is a Flutter-based application. To run it:
 
-View existing categories
-
-Tap to enter a specific category
-
-Create new categories using the floating action button
-![Image](https://github.com/user-attachments/assets/eed2391c-fbb5-4604-bad3-97247a6adefb)
-
-## ➕ Add Category Screen
-A minimal and user-friendly interface to create new note categories.
-Users can simply type the category name and click Add to save it to the database.
-![Image](https://github.com/user-attachments/assets/9f5ef7b2-4780-4a31-90e6-49e07f1259f1)
-
-## 📝 View Notes Screen
-Displays all notes under the selected category in a simple card-based layout.
-Users can:
-
-View the content of each note
-
-Tap the floating button to add a new note to the current category
-![Image](https://github.com/user-attachments/assets/7f624fdc-1ca2-4ca2-bcd4-c5829593fc97)
-
-## ✍️ Add Note Screen
-A clean input interface where users can write and save a new note under the selected category.
-Just type the note content and click Add to store it in Firebase.
-![Image](https://github.com/user-attachments/assets/a6c9dbc4-69d3-4085-b832-c9f9f7a594c3)
-
-## ⚠️ Delete Confirmation Dialog
-A warning dialog appears when the user attempts to delete a note.
-This ensures that deletions are intentional and helps prevent accidental data loss.
-![Image](https://github.com/user-attachments/assets/e0bc7654-b0f4-4c16-81d0-f08b4553c416)
-### A new Flutter project.
-
-
+```bash
+flutter pub get
+flutter run
