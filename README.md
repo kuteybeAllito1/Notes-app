@@ -2,7 +2,7 @@
 
 
 
-#📱 Notes App (with Firebase)
+# 📱 Notes App (with Firebase)
 This is a complete notes management application built with Flutter and Firebase. It allows users to:
 
     Create, edit, and delete note categories.
@@ -11,14 +11,14 @@ This is a complete notes management application built with Flutter and Firebase.
 
 Edit or delete individual notes.
 
-#🔒 Authentication Features (via Firebase Auth):
+# 🔒 Authentication Features (via Firebase Auth):
 Register with email and password.
 
     Email verification through a confirmation link.
 
     Password reset functionality.
 
-#☁️ Data Storage:
+# ☁️ Data Storage:
 All data (categories and notes) is stored securely using Firebase Firestore.
 
 
