@@ -18,6 +18,9 @@ Register with email and password.
 
     Password reset functionality.
 
+    Sign in with Google account (one-click login).
+
+
 # ☁️ Data Storage:
     All data (categories and notes) is stored securely using Firebase Firestore.
 
